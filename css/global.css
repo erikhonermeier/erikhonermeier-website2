@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* a {
+        text-decoration: none;
+      }
+      .navbar a:link,
+      .navbar a:visited {
+        color: black;
+        transition: 0.25s ease-in-out;
+      }
+      .navbar a:hover,
+      .navbar a:active {
+        color: white;
+      }
+
+h1 {
+  font: 300 1.5rem/1.2 'Montserrat', sans-serif;
+  margin-left: 1rem;
+}
+
+h2 {
+  font: 300 1.15rem/1.2 'Montserrat', sans-serif;
+  margin-left: 1rem;
+}
+
+h3 {
+  font: 300 1rem/1.4 'Montserrat', sans-serif;
+  margin-left: .35rem;
+}
+
+h4 {
+  font: 300 1.5rem/1.2 'Montserrat', sans-serif;
+  margin-bottom: .25rem;
+}
+
+body {
+  font: 300 1rem/1.35 'Montserrat', sans-serif;
+}
+
+/* Menu Css */
+
+.left-page-wrapper {
+  background-color: white;
+  position: fixed;
+  left: 0;
+	width: 28vw;
+	height: 100vh;
+  z-index: 1;
+  border-right: solid 1px;
+}
+
+.name {
+  display: flex;
+  background-color: whitesmoke;
+  height: 80px;
+  width: 28vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  border-bottom: solid 1px;
+/*  border-right: solid 1px;*/
+}
+
+.checkbox,
+.outer_wrapper {
+/*  background-color: red;*/
+  height: 11vh;
+  width: 6.85vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.label {
+/*  background: gold;*/
+  position: absolute;
+  top: 2.25%;
+  right: 1.55rem;
+  width: 30px;
+  height: 30px;
+  z-index: 3;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.outer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.left-page-wrapper label {
+  background-color: whitesmoke;
+  width: 3rem; 
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.left-page-wrapper label::before,
+.left-page-wrapper label::after {
+  background-color: black;
+  content: "";
+  width: 0.1rem; height: 1.2rem;
+  position: absolute;
+  border-radius: 2px;
+  transition: 0.5s ease-in-out;
+}
+
+.left-page-wrapper label::before {
+  transform: rotate(-45deg) translate(-0.3rem, -0.25rem);
+}
+
+.left-page-wrapper label::after {
+  transform: rotate(45deg) translate(0.3rem, -0.25rem);
+}
+
+.left-page-wrapper input:checked + label {
+  transform: rotate(360deg);
+}
+
+.left-page-wrapper input:checked + label::before {
+  height: 1.9rem;
+  transform: rotate(-45deg);
+}
+
+.left-page-wrapper input:checked + label::after {
+  height: 1.9rem;
+  transform: rotate(45deg);
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: -10rem;
+  height: 14.6rem;
+  width: 28vw;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: 0.5s ease-in-out;
+  border-bottom: 1px solid black;
+}
+
+.checkbox:checked ~ .navbar {
+  background-color: #F5B21E;
+  top: 1rem;
+}
+
+.navbar ul li {
+  opacity: 0;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: .8rem;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar li:first-child {
+  margin-top: 4.9rem;
+}
+
+.checkbox:checked ~ .navbar ul li {
+  opacity: 100%;
+}
+
+.info-text {
+/*  background-color: gold;*/
+  display: flex;
+  text-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  width: 24vw;
+  height: 100;
+  bottom: 92px;
+  left: 0;
+  margin-left: .65rem;
+}
+
+.info-content {
+  color: black;
+  bottom: 0;
+}
+
+.bottom-header {
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  text-wrap: wrap;
+  position: fixed;
+  align-items: center;
+  width: 28vw;
+  height: 80px;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid black;
+}
+
+/*@media (max-width 600px) {
+  h1 {
+    font: 300 1rem/1 'Montserrat', sans-serif;
+    margin-left: 1rem;
+  }
+}*/

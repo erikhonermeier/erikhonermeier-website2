@@ -1,0 +1,85 @@
+.info-content a {
+  text-decoration: underline;
+}
+
+.info-content a:link,
+.info-content a:visited {
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+
+.info-content a:hover,
+.info-content a:active {
+  color: #F5B21E;
+}
+
+.page-wrapper-1 {
+  background-color: lightgray;
+  position: absolute;
+  width: 72%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.page-wrapper-1 {
+  left: 28vw;
+}
+
+.fig-container-1,
+.fig-container-2,
+.fig-container-3 {
+  left: 0;
+  right: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-right: .75rem;
+  padding-left: .75rem;
+  flex-wrap: wrap;
+}
+
+.fig-container-2 {
+  justify-content: space-between;
+  top: 0;
+  z-index: 5;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.fig-container-3 {
+  justify-content: space-between;
+  top: 0;
+  z-index: 5;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
+  margin-bottom: .75rem;
+}
+
+figure2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
+}
+
+.george {
+  margin-left: .75rem;
+  margin-right: .75rem;
+}

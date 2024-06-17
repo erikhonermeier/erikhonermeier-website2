@@ -1,0 +1,50 @@
+* {
+  margin-bottom: -1px;
+}
+
+.contact a {
+  text-decoration: underline;
+}
+
+.contact a:link,
+.contact a:visited {
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+
+.contact a:hover,
+.contact a:active {
+  color: #F5B21E;
+}
+
+.page-wrapper-2 {
+  background-color: white;
+  position: absolute;
+  width: 72%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-wrapper-2 {
+  right: 0;
+}
+
+.contact {
+  background-color: rgba(255, 255, 255, 85%);
+  border: 1px solid black;
+  padding: 1.5rem;
+  width: 50%;
+  z-index: 2;
+  position: absolute;
+/*  transform: translateX(75%);*/
+  text-align: center;
+}
+
+figure {
+  z-index: 1;
+  opacity: 60%;
+/*  transform: translateX(-5%);*/
+}

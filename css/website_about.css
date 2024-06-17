@@ -1,0 +1,36 @@
+* {
+  margin-bottom: -1px;
+}
+
+.page-wrapper-2 {
+  background-color: white;
+  position: absolute;
+  width: 72%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-wrapper-2 {
+  right: 0;
+}
+
+.bio {
+  background-color: rgba(255, 255, 255, 85%);
+  border: 1px solid black;
+  padding: 1.5rem;
+  width: 50%;
+  text-indent: 1.25rem;
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+/*  transform: translateX(75%);*/
+}
+
+figure {
+  z-index: 1;
+  opacity: 60%;
+  transform: translateY(-20%);
+}
