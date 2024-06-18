@@ -70,7 +70,7 @@ body {
 .outer_wrapper {
   height: 80px;
   width: 6.85vw;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 2;
@@ -81,7 +81,6 @@ body {
 }
 
 .label {
-  background: gold;
   position: absolute;
   top: 2.25%;
   right: 1.55rem;
@@ -102,7 +101,7 @@ body {
 }
 
 .left-page-wrapper label {
-  background-color: red;
+  background-color: whitesmoke;
   width: 3rem; 
   height: 3rem;
   display: flex;
