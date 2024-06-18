@@ -69,7 +69,7 @@ body {
 .checkbox,
 .outer_wrapper {
 /*  background-color: red;*/
-  height: 11vh;
+  height: 80px;
   width: 6.85vw;
   position: absolute;
   top: 0;
