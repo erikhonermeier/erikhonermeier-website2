@@ -68,7 +68,7 @@ body {
 
 .checkbox,
 .outer_wrapper {
-/*  background-color: red;*/
+  background-color: red;
   height: 80px;
   width: 6.85vw;
   position: absolute;
@@ -82,7 +82,7 @@ body {
 }
 
 .label {
-/*  background: gold;*/
+  background: gold;
   position: absolute;
   top: 2.25%;
   right: 1.55rem;
@@ -103,7 +103,7 @@ body {
 }
 
 .left-page-wrapper label {
-  background-color: whitesmoke;
+  background-color: red;
   width: 3rem; 
   height: 3rem;
   display: flex;
@@ -211,10 +211,3 @@ body {
   left: 0;
   border-top: 1px solid black;
 }
-
-/*@media (max-width 600px) {
-  h1 {
-    font: 300 1rem/1 'Montserrat', sans-serif;
-    margin-left: 1rem;
-  }
-}*/
