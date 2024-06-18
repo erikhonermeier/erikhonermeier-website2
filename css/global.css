@@ -40,8 +40,6 @@ body {
   font: 300 1rem/1.35 'Montserrat', sans-serif;
 }
 
-/* Menu Css */
-
 .left-page-wrapper {
   background-color: white;
   position: fixed;
@@ -63,7 +61,6 @@ body {
   align-items: center;
   z-index: 1;
   border-bottom: solid 1px;
-/*  border-right: solid 1px;*/
 }
 
 .checkbox,
@@ -179,7 +176,6 @@ body {
 }
 
 .info-text {
-/*  background-color: gold;*/
   display: flex;
   text-wrap: wrap;
   position: fixed;
